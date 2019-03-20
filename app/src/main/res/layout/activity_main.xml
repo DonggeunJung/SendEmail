@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textReceiveTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="21dp"
+        android:text="Receiver :" />
+
+    <EditText
+        android:id="@+id/editReceiver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="79dp"
+        android:layout_alignTop="@+id/textReceiveTitle"
+        android:ems="10"
+        android:text="topsan72@gmail.com" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/textReceiveTitle"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="30dp"
+        android:onClick="onClick"
+        android:text="Send" />
+
+    <EditText
+        android:id="@+id/editMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textReceiveTitle"
+        android:layout_marginTop="150dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:text="Send Email Test" />
+
+</RelativeLayout>
