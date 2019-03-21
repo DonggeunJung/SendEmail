@@ -26,8 +26,8 @@ import javax.mail.SendFailedException;
  */
 
 public class MainActivity extends AppCompatActivity {
-    final String SENDER_ID = "topsan72@gmail.com";
-    final String SENDER_PW = "1qasw23e";
+    final String SENDER_ID = "Your Email address";
+    final String SENDER_PW = "Your Email password";
     TextView textAddress = null;
     TextView textMessage = null;
 
