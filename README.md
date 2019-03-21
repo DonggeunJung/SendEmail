@@ -2,7 +2,6 @@
 
 [Android & Java] Send Email android example by using SMTP. Attach file support.
 
-
 [Image1 : Main Activity]
 
 <div>
